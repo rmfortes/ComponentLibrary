@@ -71,4 +71,10 @@ button {
     width: 171px;
 }
 
+.button-primary-outline {
+    background-color: #FFFFFF;
+    color: #33A0FF;
+    border: 10px #33A0FF;
+}
+
 
