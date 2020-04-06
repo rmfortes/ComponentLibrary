@@ -1,0 +1,48 @@
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+    height: 46px;
+    width: 150px;
+}
+
+.button-primary {
+    background-color: #33A0FF;
+    color: white;
+    border:#33A0FF;
+}
+
+.button-primary-clicked {
+    background-color: #2E90E5;
+    color: white;
+    border: #33A0FF;
+}
+
+.button-danger {
+    background-color:#FF4858;
+    color: white;
+    border: #33A0FF;
+}
+
+.button-success {
+    background-color:#0AD00A;
+    color: white;
+    border: #33A0FF;
+}
+
+.button-warning {
+    background-color:#FFC600;
+    color: white;
+    border: #33A0FF;
+}
+
+.button-default {
+    background-color:#22262A;
+    color: white;
+    border: #33A0FF;
+}
+
+.button-large {
+    padding: 10px 50px;
+    height: 60px;
+    width: 171px;
+}
