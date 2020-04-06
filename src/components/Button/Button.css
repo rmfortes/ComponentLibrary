@@ -11,14 +11,20 @@ button {
     border:#33A0FF;
 }
 
-.button-primary-clicked {
-    background-color: #2E90E5;
+.button-primary:active{
+    background-color:#2E90E5;
     color: white;
-    border: #33A0FF;
+    border:#33A0FF;
 }
 
 .button-danger {
     background-color:#FF4858;
+    color: white;
+    border: #33A0FF;
+}
+
+.button-danger:active{
+    background-color: #F53848;
     color: white;
     border: #33A0FF;
 }
@@ -29,8 +35,20 @@ button {
     border: #33A0FF;
 }
 
+.button-success:active {
+    background-color: #07C107;
+    color: white;
+    border: #33A0FF;
+}
+
 .button-warning {
     background-color:#FFC600;
+    color: white;
+    border: #33A0FF;
+}
+
+.button-warning-active {
+    background-color: #EBB600;
     color: white;
     border: #33A0FF;
 }

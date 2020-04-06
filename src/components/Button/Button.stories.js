@@ -2,11 +2,9 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Button from './Button.js';
 
-let onClick = (x) => {
-    console.log("I've Been Clicked!");
-    this.setState({
-        clicked: true
-    });
+let onClick = () => {
+    console.log("I was clicked!")
+    
 }
 
 storiesOf('Button', module)
@@ -45,7 +43,7 @@ storiesOf('Button', module)
         label="Do Something"
         type="danger"
         large
- 
+
     />)
     .add('Large Success', () => <Button
         label="Do Something"
