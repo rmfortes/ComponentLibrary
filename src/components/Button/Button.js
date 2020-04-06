@@ -15,11 +15,8 @@ const Button = (props) => {
         classList += ` button-large`
     }
 
-    if (props.clicked) {
-        classList += `button-${props.type}-clicked`
-    }
 
-    return <button className={classList} onClick={props.onClick}>
+    return <button className={classList}>
         {props.label}
     </button>
 }

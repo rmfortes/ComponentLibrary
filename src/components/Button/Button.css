@@ -47,7 +47,7 @@ button {
     border: #33A0FF;
 }
 
-.button-warning-active {
+.button-warning:active {
     background-color: #EBB600;
     color: white;
     border: #33A0FF;
@@ -59,8 +59,16 @@ button {
     border: #33A0FF;
 }
 
+.button-default:active {
+    background-color: #13161A;
+    color: white;
+    border: #33A0FF;
+}
+
 .button-large {
     padding: 10px 50px;
     height: 60px;
     width: 171px;
 }
+
+
